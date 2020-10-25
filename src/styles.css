@@ -23,14 +23,32 @@ nav ul li {
     margin-left: 30px;
 }
 
+#heroimg {
+    max-height: 70vh;
+}
+
+#heroimg img {
+    min-width:100%;
+    max-height:100%;
+    object-fit:cover;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
+}
+
 @layer base {
     body {
         @apply text-secondary
     }
     h1,h2,h3 {
         @apply text-primary;
+        @apply leading-tight
     }
     h4,h5,p {
-      @apply text-secondary;
+        @apply text-secondary;
+    }
+    h1,h2 {
+        @apply font-black;
+        @apply uppercase;
     }
   }

@@ -598,10 +598,16 @@ body {
 
 h1,h2,h3 {
   color: var(--color-primary);
+  line-height: 1.25
 }
 
 h4,h5,p {
   color: var(--color-secondary);
+}
+
+h1,h2 {
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .container {
@@ -21984,10 +21990,23 @@ nav ul {
 
 nav ul li {
   display: inline;
-  text-align: right;
   float: right;
   position: relative;
   margin-left: 30px;
+}
+
+#heroimg {
+  max-height: 70vh;
+}
+
+#heroimg img {
+  min-width:100%;
+  max-height:100%;
+  -o-object-fit:cover;
+     object-fit:cover;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: fill-available;
 }
 
 @media (min-width: 640px) {

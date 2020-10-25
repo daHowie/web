@@ -18,5 +18,10 @@
     "url": "https://github.com/daHowie/web/issues"
   },
   "homepage": "https://github.com/daHowie/web#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.6"
+  }
 }
