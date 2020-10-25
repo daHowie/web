@@ -1,17 +1,26 @@
 :root {
-    --color-primary: #5c6ac4;
-    --color-secondary: #ecc94b;
+    --color-primary: #3370D9;
+    --color-secondary: #26312D;
+    --color-offwhite: #F5F6FF;
   }
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+    font-family: "aktiv-grotesk", Arial, Helvetica, sans-serif;
+}
+
 @layer base {
-    h1,h2,h3,h4 {
+    body {
+        @apply text-secondary
+    }
+    h1,h2,h3 {
         @apply text-primary;
     }
-    p {
+    h4,h5,p {
       @apply text-secondary;
     }
   }
