@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #5c6ac4;
+    --color-secondary: #ecc94b;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1,h2,h3,h4 {
+        @apply text-primary;
+    }
+    p {
+      @apply text-secondary;
+    }
+  }

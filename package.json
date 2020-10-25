@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daHowie/web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daHowie/web/issues"
+  },
+  "homepage": "https://github.com/daHowie/web#readme"
+}
