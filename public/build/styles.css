@@ -21978,6 +21978,18 @@ html {
   font-family: "aktiv-grotesk", Arial, Helvetica, sans-serif;
 }
 
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  text-align: right;
+  float: right;
+  position: relative;
+  margin-left: 30px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

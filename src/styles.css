@@ -13,6 +13,17 @@ html {
     font-family: "aktiv-grotesk", Arial, Helvetica, sans-serif;
 }
 
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    text-align: right;
+    float: right;
+    position: relative;
+    margin-left: 30px;
+}
+
 @layer base {
     body {
         @apply text-secondary
