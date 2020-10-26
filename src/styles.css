@@ -1,7 +1,7 @@
 :root {
     --color-primary: #3370D9;
     --color-secondary: #26312D;
-    --color-offwhite: #b7b8c7;
+    --color-offwhite: #F5F6FF;
   }
 
 
@@ -11,7 +11,6 @@
 
 html {
     font-family: "aktiv-grotesk", Arial, Helvetica, sans-serif;
-    font-size: 18px;
 }
 
 nav ul {
@@ -29,8 +28,8 @@ nav ul li {
 }
 
 #heroimg img {
-    min-width:100%;
-    max-height:100%;
+    width: auto;
+    min-height: 100%;
     object-fit:cover;
     height: -moz-available;          /* WebKit-based browsers will ignore this. */
     height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
