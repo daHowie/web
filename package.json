@@ -1,10 +1,14 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/build/styles.css",
     "build": "tailwind build src/styles.css -o public/build/styles.css"
   },
   "repository": {
@@ -18,10 +22,5 @@
     "url": "https://github.com/daHowie/web/issues"
   },
   "homepage": "https://github.com/daHowie/web#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss-cli": "^8.1.0",
-    "tailwindcss": "^1.9.6"
-  }
+  "description": ""
 }

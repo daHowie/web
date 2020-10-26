@@ -1,7 +1,7 @@
 :root {
   --color-primary: #3370D9;
   --color-secondary: #26312D;
-  --color-offwhite: #F5F6FF;
+  --color-offwhite: #b7b8c7;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -21982,6 +21982,7 @@ h1,h2 {
 
 html {
   font-family: "aktiv-grotesk", Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 nav ul {
